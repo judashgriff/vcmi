@@ -62,8 +62,8 @@ Magog	Magogs	0	0	0	0	0	0	175	210	240	8	0	16	6	9	4	6	8	40	0	16	25	Fireball attack
 Hell Hound	Hell Hounds	0	0	0	0	0	0	200	275	357	5	3	35	7	14	6	5	10	0	0	12	25		DOUBLE_WIDE | FLYING_ARMY
 Cerberus	Cerberi	0	0	0	0	0	0	250	308	392	5	3	40	8	16	8	8	12	0	0	12	20	"3-headed attack.
 Enemies cannot retaliate."	DOUBLE_WIDE | FLYING_ARMY
-Demon	Demons	0	0	0	0	0	0	250	445	445	7	0	35	5	14	14	10	13	0	0	10	20		0
-Horned Demon	Horned Demons	0	0	0	0	0	0	270	480	480	7	0	40	6	17	17	10	13	0	0	10	16		0
+Demon	Demons	0	0	0	0	0	0	120	445	445	14	0	20	5	8	5	10	13	0	0	10	20		0
+Horned Demon	Horned Demons	0	0	0	0	0	0	150	480	480	14	0	25	6	11	6	10	13	0	0	10	16		0
 Pit Fiend	Pit Fiends	0	0	0	0	0	0	500	765	765	3	0	45	6	13	13	13	17	0	0	8	16		0
 Pit Lord	Pit Lords	0	0	0	0	0	0	700	1071	1224	3	0	45	7	13	13	13	17	0	1	8	12	"Summon demons from
 a dead ally."	0
@@ -137,12 +137,12 @@ Gnoll	Gnolls	0	0	0	0	0	0	30	70	56	20	6	6	4	3	5	3	4	0	0	20	50		0
 Gnoll Marauder	Gnoll Marauders	0	0	0	0	0	0	45	90	90	20	6	6	5	4	6	3	4	0	0	20	30		0
 Lizardman	Lizardmen	0	0	0	0	0	0	55	115	126	9	0	16	4	5	9	3	4	12	0	16	30	Weakens enemies.	SHOOTING_ARMY
 Lizard Warrior	Lizard Warriors	0	0	0	0	0	0	70	130	156	9	0	18	5	6	11	3	6	24	0	16	25	Weakens enemies. Poisonous.	SHOOTING_ARMY
+Gorgon	Gorgons	0	0	0	0	0	0	525	890	890	3	0	70	5	10	14	12	16	0	0	12	25		DOUBLE_WIDE
+Mighty Gorgon	Mighty Gorgons	0	0	0	0	0	0	600	1028	1028	3	0	80	6	12	19	12	16	0	0	12	20	Death stare.	DOUBLE_WIDE
 Serpent Fly	Serpent Flies	0	0	0	0	0	0	180	215	268	12	0	20	9	7	9	2	5	0	0	10	20	Dispels beneficial spells.	FLYING_ARMY
 Dragon Fly	Dragon Flies	0	0	0	0	0	0	200	250	312	12	0	20	13	8	10	2	5	0	0	10	16	Dispels beneficial spells.  Weakens enemies.	FLYING_ARMY
 Basilisk	Basilisks	0	0	0	0	0	0	325	506	552	4	0	55	5	11	14	6	10	0	0	8	16	Petrifying attack.	DOUBLE_WIDE
 Greater Basilisk	Greater Basilisks	0	0	0	0	0	0	400	561	714	4	0	60	7	12	15	6	10	0	0	8	12	Petrifying attack.	DOUBLE_WIDE
-Gorgon	Gorgons	0	0	0	0	0	0	525	890	890	3	0	70	5	10	14	12	16	0	0	12	25		DOUBLE_WIDE
-Mighty Gorgon	Mighty Gorgons	0	0	0	0	0	0	600	1028	1028	3	0	80	6	12	19	12	16	0	0	12	20	Death stare.	DOUBLE_WIDE
 Wyvern	Wyverns	0	0	0	0	0	0	800	1050	1350	2	0	120	7	14	14	18	24	0	0	5	12		DOUBLE_WIDE | FLYING_ARMY
 Wyvern Monarch	Wyvern Monarchs	0	0	0	0	0	0	1100	1181	1518	2	0	180	11	14	14	22	28	0	0	5	10	Poisonous.	DOUBLE_WIDE | FLYING_ARMY
 Hydra	Hydras	0	0	0	0	0	0	4000	4120	4120	1	0	300	5	21	24	35	55	0	0	4	10	Attacks all adjacent enemies.  Enemies cannot retaliate.	DOUBLE_WIDE | KING_1
@@ -161,7 +161,7 @@ Diamond Golem	Diamond Golems	0	0	0	0	0	0	750	775	775	2	0	300	5	13	12	10	14	0	0	8
 																								
 																								
 																								
-Pixie	Pixies	0	0	0	0	0	0	15	40	55	30	10	4	7	2	2	1	2	0	0	20	50		FLYING_ARMY
+Pixie	Pixies	0	0	0	0	0	0	15	40	55	30	10	3	7	2	2	1	2	0	0	20	50		FLYING_ARMY
 Sprite	Sprites	0	0	0	0	0	0	20	70	95	30	10	4	9	2	2	2	3	0	0	20	30	No enemy retaliation.	FLYING_ARMY | const_free_attack
 Psychic Elemental	Psychic Elementals	0	0	0	0	0	0	750	1431	1669	2	0	75	7	15	13	20	30	0	0	8	16	Attacks all adjacent enemies w/o retaliation. Mind spell immunity.	IMMUNE_TO_MIND_SPELLS | DOUBLE_WIDE | const_free_attack | MULTI_HEADED
 Magic Elemental	Magic Elementals	0	0	0	0	0	0	800	1724	2012	2	0	80	9	15	13	30	40	0	0	8	12	Attacks all adjacent enemies w/o retaliation. Spell immunity.	IMMUNE_TO_MIND_SPELLS | DOUBLE_WIDE | const_free_attack | MULTI_HEADED
