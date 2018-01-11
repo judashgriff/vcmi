@@ -267,6 +267,10 @@
 				"creature" : "imp"
 			},
 			{
+				"min" : 500, "max" : 1000,
+				"creature" : "imp"
+			},
+			{
 				"min" : 300, "max" : 600,
 				"creature" : "familiar"
 			}
